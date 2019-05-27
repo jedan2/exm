@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding:0;
+}
+body{}
+header{
+    padding: 40px 0;
+}
+.container{
+    width: 1060px;
+    margin: auto;
+    /* overflow: hidden; */
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{}
+.picture{
+    width: 80%;
+    float: left;
+    text-align: right;
+}
+.picture li{
+    display: inline-block;
+}
+li img{}
+span{
+    width: 1089px;
+    height: 1px;
+    background: #ffffff;
+    display: -webkit-inline-box;
+}
+nav{
+    padding-top: 25px;
+}
+nav ul{
+    float: left;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #afacac;
+    padding-right: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all .4s;
+}
+nav ul li a:hover{
+    color: #00bbf5;
+}
+
+
+.banner-img{
+    position: relative;
+}
+.banner{}
+.banner-img img{
+    max-width: 100%;
+}
+.content{
+    width: 550px;
+    position: absolute;
+    /* top: 50%; */
+    left: 28%;
+    bottom: -100px;
+    /* transform: translate(-30%); */
+}
+
+.about{
+    padding: 150px;
+}
+.btn{
+    text-align: center;
+    padding-top: 30px;
+    /* text-decoration: none; */
+}
+.btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: 1px solid;
+    border-color: #2dcc70;
+    padding: 15px 20px;
+    background: #2dcc70;
+    color: #fff;
+}
+
+
+video{}
+.left{
+    width: 50%;
+    float: left;
+    padding: -3px;
+    box-sizing: border-box;
+}
+.left img{
+    /* min-width: 200px; */
+    /* background-size: 205px; */
+    width: 450px;
+    height: 240px;
+}
+
+.rigt{
+    float: left;
+    padding: 10pa;
+    /* padding: 10px; */
+    box-sizing: border-box;
+    width: 50%;
+    padding-right: 0px;
+}
+.rigt h1{
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    color: #737373;
+}
+.rigt p{
+    text-align: justify;
+}
+.video{
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+.footer-1{
+    padding: 40px 0;
+    overflow: hidden;
+    background: #000000bf;
+}
+h3{
+    float: left;
+    text-transform: capitalize;
+    color: #fff;
+}
+.footer-1 .btn{
+	margin-top: -28px;
+	float: right;
+	border-radius: 10px;
+}
+footer{
+    padding: 30px 0;
+}
+p{
+    font-size: 14px;
+    color: #73737385;
+    line-height: 1.6em;
+    text-align: center;
+}
+.copy{
+    float: left;
+}
+.menu{
+    float: right;
+} 
+.menu li{
+	display: inline-block;
+	text-transform: capitalize;
+	/* padding-right: 0px; */
+	color: #504b4bcf;
+	font-weight: bold;
+}
